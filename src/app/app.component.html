@@ -1,0 +1,28 @@
+<h1 class="text-center">Assignment 4</h1>
+
+<hr>
+
+<app-GameControl (numberChanged)="distributeNumber($event)"></app-GameControl>
+
+
+<div class="container">
+  <div class="row ">
+
+    <div class="col-xs-6">
+      <app-Even *ngFor="let evenElement of even" [evenAlias]="evenElement"></app-Even>
+
+    </div>
+
+    <div class="col-xs-6">
+      <app-Odd *ngFor="let oddElement of odd" [oddAlias]="oddElement"></app-Odd>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+

@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.border{
+  border-width: 2px;
+  border-style: solid;
+}
+
+.p-3{
+  padding: 3px;
+}
